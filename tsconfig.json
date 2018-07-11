@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./", // enables relative imports to root
+        "paths": {
+            "@src/*": [
+                "src/*"
+            ]
+        },
+        "outDir": "./build",
+        "target": "es6",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": false,
+        "noResolve": false,
+        "noUnusedParameters": false,
+        "noUnusedLocals": false,
+        "strictNullChecks": false,
+        "strict": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "src/**/*",
+        "test/**/*.spec.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
