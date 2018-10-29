@@ -15,7 +15,6 @@
         "module": "commonjs",
         "moduleResolution": "node",
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
         "noImplicitAny": false,
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": false,
